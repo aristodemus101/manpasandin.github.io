@@ -871,6 +871,31 @@ footer .copyright {
 @media (max-width: 477px) {
   #navbar {
     padding: 10px 30px;
+   
+  }
+  #navbar li{
+    margin-bottom: 25px;
+  }
+  #mobile{
+    display: flex;
+    align-items: center;
+  }
+  #mobile i{
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  #navbar.active{
+    right: 0px;
+  }
+
+  #close{
+    display: initial;
+    position: absolute;
+    top:30px;
+    left:10px;
+    color: #222;
+    font-size: 24px;
   }
   
   #hero {

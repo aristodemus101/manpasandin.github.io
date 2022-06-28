@@ -96,6 +96,9 @@ body {
   display: none;
   align-items: center;
 }
+#close{
+  display: none;
+}
 
 #navbar li {
   list-style: none;
@@ -816,8 +819,8 @@ footer .copyright {
   #close{
     display: initial;
     position: absolute;
-    top:30px;
-    left:30px;
+    top: 30px;
+    left: 30px;
     color: #222;
     font-size: 24px;
   }
@@ -871,7 +874,9 @@ footer .copyright {
 @media (max-width: 477px) {
   #navbar {
     padding: 10px 30px;
+    flex-direction: column;
   }
+  
   
   #hero {
     padding: 0 20px;

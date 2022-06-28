@@ -96,6 +96,9 @@ body {
   display: none;
   align-items: center;
 }
+#close{
+  display: none;
+}
 
 #navbar li {
   list-style: none;
@@ -816,8 +819,8 @@ footer .copyright {
   #close{
     display: initial;
     position: absolute;
-    top:30px;
-    left:30px;
+    top: 30px;
+    left: 30px;
     color: #222;
     font-size: 24px;
   }
@@ -871,32 +874,9 @@ footer .copyright {
 @media (max-width: 477px) {
   #navbar {
     padding: 10px 30px;
-   
+    flex-direction: column;
   }
-  #navbar li{
-    margin-bottom: 25px;
-  }
-  #mobile{
-    display: flex;
-    align-items: center;
-  }
-  #mobile i{
-    color: #1a1a1a;
-    font-size: 24px;
-    padding-left: 20px;
-  }
-  #navbar.active{
-    right: 0px;
-  }
-
-  #close{
-    display: initial;
-    position: absolute;
-    top:30px;
-    left:10px;
-    color: #222;
-    font-size: 24px;
-  }
+  
   
   #hero {
     padding: 0 20px;

@@ -33,8 +33,7 @@
 
     <section id ="prodetails" class="section-p1">
         <div class="single-pro-image">
-            <img src="img/products/f1.jpg" width="100%" id ="mainImage">
-
+            <img src="img/products/f1.jpg" width="100%" id ="MainImg">
             <div class="small-img-group">
                 <div class="small-img-col">
                     <img src="img/products/f2.jpg" width="100%" class = "small-img"> 
@@ -54,9 +53,9 @@
         </div>
 
         <div class="single-pro-details">
-            <h6> Home / T-shirt </h6>
-            <h4> Men's Fashion T shirts </h4>
-            <h2>Rs 1700</h2>
+            <h6> Home / Shirt </h6>
+            <h4> Levi's Printed Shirt </h4>
+            <h2>Rs 999</h2>
             <select>
                 <option>Select Size</option>
                 <option>S</option>
@@ -67,19 +66,19 @@
             <input type="number" val = "1">
             <button class="normal"> Add to Cart</button>
             <h4> Product details </h4> 
-            <span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore aliquid cum veritatis sit dolore possimus laboriosam consequatur fugit repellat quae.</span>
+            <span> Short-sleeved shirt in a linen and cotton weave. Relaxed fit with a resort collar, French front and yoke at the back. Open chest pocket and a straight-cut hem.</span>
         </div>
     </section>
 
     <section id = "product1" class = "section-p1">
         <h2> Featured Products</h2>
-        <p> Summer collection New Chic desings</p>
+        <p> Spring Collection - Cherish</p>
         <div class="pro-container">
             <div class="pro">
                 <img src="img/products/f1.jpg">
                 <div class="des">
-                    <span> Adidas </span>
-                    <h5> Shoes T-shirt </h5>
+                    <span> Levi's  </span>
+                    <h5> Printed Shirt </h5>
                     <div class="star">
                         <i class = "fas fa-star"></i>
                         <i class = "fas fa-star"></i>
@@ -87,7 +86,7 @@
                         <i class = "fas fa-star"></i>
                         <i class = "fas fa-star"></i>
                     </div>
-                    <h4> Rs. 78 </h4>
+                    <h4> Rs. 999 </h4>
                 </div>
                 <a href="#"> <i class ="fal fa-shopping-cart cart"></i></a>
             </div>
@@ -97,8 +96,8 @@
             <div class="pro">
                 <img src="img/products/f2.jpg">
                 <div class="des">
-                    <span> Adidas </span>
-                    <h5> Shoes T-shirt </h5>
+                    <span> UCB </span>
+                    <h5> Printed Shirt </h5>
                     <div class="star">
                         <i class = "fas fa-star"></i>
                         <i class = "fas fa-star"></i>
@@ -106,7 +105,7 @@
                         <i class = "fas fa-star"></i>
                         <i class = "fas fa-star"></i>
                     </div>
-                    <h4> Rs. 18 </h4>
+                    <h4> Rs. 799 </h4>
                 </div>
                 <a href="#"> <i class ="fal fa-shopping-cart cart"></i></a>
             </div>
@@ -115,8 +114,8 @@
             <div class="pro">
                 <img src="img/products/f3.jpg">
                 <div class="des">
-                    <span> Adidas </span>
-                    <h5> Shoes T-shirt </h5>
+                    <span> Levi's </span>
+                    <h5> Printed Shirt </h5>
                     <div class="star">
                         <i class = "fas fa-star"></i>
                         <i class = "fas fa-star"></i>
@@ -124,7 +123,7 @@
                         <i class = "fas fa-star"></i>
                         <i class = "fas fa-star"></i>
                     </div>
-                    <h4> Rs. 18 </h4>
+                    <h4> Rs. 999 </h4>
                 </div>
                 <a href="#"> <i class ="fal fa-shopping-cart cart"></i></a>
             </div>
@@ -133,8 +132,8 @@
             <div class="pro">
                 <img src="img/products/f4.jpg">
                 <div class="des">
-                    <span> Adidas </span>
-                    <h5> Shoes T-shirt </h5>
+                    <span> USPA </span>
+                    <h5> Printed Shirt </h5>
                     <div class="star">
                         <i class = "fas fa-star"></i>
                         <i class = "fas fa-star"></i>
@@ -142,7 +141,7 @@
                         <i class = "fas fa-star"></i>
                         <i class = "fas fa-star"></i>
                     </div>
-                    <h4> Rs. 18 </h4>
+                    <h4> Rs. 1299 </h4>
                 </div>
                 <a href="#"> <i class ="fal fa-shopping-cart cart"></i></a>
             </div>
@@ -175,7 +174,7 @@
                 <strong>Phone : </strong> 8709938947
             </p>
             <p>
-                <strong>Hours : </strong> 10 am to 12pm
+                <strong>Hours : </strong> 10 am to 8pm
             </p>
             <h4>Follow us </h4>
             <div class="follow">
@@ -232,8 +231,9 @@
 
 
     <script>
-        var MainImg = document.getElementById("MainImg");
-        var smallimg = document.getElementsByClassName("small-img-col");
+        var MainImg = document.getElementById('MainImg');
+        var smallimg = document.getElementsByClassName("small-img");
+
         smallimg[0].onclick = function(){
             MainImg.src = smallimg[0].src;
         }

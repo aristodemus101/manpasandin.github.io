@@ -29,3 +29,4 @@ MainImg.src = smallimg[2].src;
 smallimg[3].onclick = function(){
 MainImg.src = smallimg[3].src;
 }
+
